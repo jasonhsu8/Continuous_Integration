@@ -8,8 +8,8 @@ class testFunction(unittest.TestCase):
         self.assertEqual(result, 1)
     
     def test_subtraction_negative_numbers(self):
-        result = subtract_numbers(6, -2)
-        self.assertEqual(result, 8)
+        result = subtract_numbers(-6, 2)
+        self.assertEqual(result, -8)
 
     def test_subtraction_float_numbers(self):
         result = subtract_numbers(7.5, 2.5)
